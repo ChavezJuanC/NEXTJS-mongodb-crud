@@ -12,7 +12,7 @@ export async function connectDB() {
 
   //await for connection //////DONT FORGET TO ADD URI HERE////////////
   const MONGODB_URI =
-    "mongodb+srv://root:root@testdatabase.rrt3erp.mongodb.net/?retryWrites=true&w=majority&appName=TestDatabase";
+    "";
 
   const db = await connect(MONGODB_URI);
 
